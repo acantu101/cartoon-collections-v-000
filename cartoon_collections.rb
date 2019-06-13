@@ -21,11 +21,8 @@ end
 def find_the_cheese(cheese) # code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-    cheese.each do |e|
-    if e = "cheddar" || "gouda" || "camembert"
-      return cheese[0]
-  else
-    return nil
+  cheese.find { |e| e % "cheddar" || e % "gouda" || e % "camembert"}    
+
 end
 end
-end
+
