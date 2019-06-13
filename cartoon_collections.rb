@@ -6,7 +6,7 @@ end
 end
 
 def summon_captain_planet(array)
-array.map { |element| puts "#{element} !" }
+array.map(&:capitalize).join('!')
 end
 
 
