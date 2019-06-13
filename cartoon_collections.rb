@@ -11,9 +11,9 @@ return array
 end
 
 def long_planeteer_calls(calls)
-if calls.any? { |call| call.lenght > 4}
+if calls.any? { |call| call.length > 4}
   return true
-elsif calls.all? { |call| call.lenght > 4}
+elsif calls.all? { |call| call.length > 4}
   return false
 end
 end
