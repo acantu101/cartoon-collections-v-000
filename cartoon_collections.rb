@@ -6,11 +6,10 @@ end
 end
 
 def summon_captain_planet(array)
-array.map { |element| puts element.upcase "!" }
+array.map { |element| puts "#{element} !" }
 end
-end
-array
-end
+
+
 
 
 def long_planeteer_calls# code an argument here
