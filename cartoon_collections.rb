@@ -6,8 +6,7 @@ end
 end
 
 def summon_captain_planet(array)
-array.each{|i| i.capitalize!}
-puts "#{array}!"
+array.each{|i| i.capitalize! << "!"}
 return array
 end
 
