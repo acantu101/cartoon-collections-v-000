@@ -7,7 +7,6 @@ end
 
 def summon_captain_planet(array)
 array.each{|i| i.capitalize!}.join('!')
-
 end
 
 
