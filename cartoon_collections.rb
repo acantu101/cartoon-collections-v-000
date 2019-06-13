@@ -18,9 +18,11 @@ elsif calls.all? { |call| call.length <= 4}
 end
 end
 
-
-
-def find_the_cheese# code an argument here
+def find_the_cheese(cheese) # code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
+  if cheese.include? ["cheddar", "gouda", "camembert"]
+    cheese.map { |e| puts e[0]}
+  else
+    return nil
 end
