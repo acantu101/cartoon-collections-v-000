@@ -6,7 +6,7 @@ end
 end
 
 def summon_captain_planet(array)
-array.each{|i| i.capitalize!}.split
+array.each{|i| i.capitalize!}
 puts "#{array}!"
 end
 
