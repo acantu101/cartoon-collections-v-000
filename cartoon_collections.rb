@@ -6,8 +6,9 @@ end
 end
 
 def summon_captain_planet(array)
-array.map(&:capitalize).join('!')
-return array
+new_array = []
+new_array << array.map(&:capitalize).join('!')
+return new_array
 end
 
 
